@@ -5,13 +5,10 @@ toc: true
 toc_label: "目录"
 toc_icon: "gear"
 categories:
-  - Edge Case
+  - test_category
 tags:
-  - content
-  - css
-  - edge case
-  - lists
-  - markup
+  - test_tag_1
+  - test_tag_2
 ---
 
 

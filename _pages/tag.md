@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /tag/
-title: "Tag"
+title: "标签"
 excerpt: "站点标签。"
 author_profile: true
 ---

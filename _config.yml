@@ -9,8 +9,8 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "zh"
-title                    : "A-xyst's Blog"
-title_separator          : "|"
+title                    : "A-XYST's BLOG"
+title_separator          : "_"
 name                     : "a-xyst"
 description              : "A-xyst的个人博客。"
 url                      : "https://a-xyst.github.io"

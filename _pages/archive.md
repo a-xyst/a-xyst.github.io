@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /archive/
-title: "Archive"
+title: "归档"
 excerpt: "站点归档。"
 author_profile: true
 ---

@@ -1,5 +1,5 @@
 ---
-title:  图论资料整理"
+title:  图论资料整理
 excerpt: "资料、例题和模板。"
 toc: true
 toc_label: "目录"

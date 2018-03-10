@@ -1,5 +1,5 @@
 ---
-title:  "数据结构与DFS"
+title:  "数据结构与连通分量"
 excerpt: "伪代码整合。"
 toc: true
 toc_label: "目录"
@@ -9,11 +9,10 @@ categories:
 tags:
   - 算法
   - 数据结构
-  - DFS
+  - 连通分量
 ---
 
 最近的主要学习/复习内容总结。
-更详细的总结在competitive-programming的notes文件夹中。
 
 ## 树状数组
 耗时常数小于线段树

@@ -5,7 +5,7 @@ toc: true
 toc_label: "目录"
 toc_icon: "gear"
 categories:
-  - Maths
+  - Math
 tags:
   - 数学
   - 线性代数

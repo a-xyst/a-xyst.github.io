@@ -13,7 +13,7 @@ tags:
 ---
 
 
-[这个网站](http://www.cppblog.com/menjitianya/category/20893.html)有关于树状数组和线段树的讲解，我感觉写得不错，虽然有些小错误，比如树状数组的求和函数写错
+[这个博客](http://www.cppblog.com/menjitianya/category/20893.html)有关于树状数组和线段树的讲解，我感觉写得不错，虽然有些小错误，比如树状数组的求和函数写错
 
 摘出的通用模板：
 
@@ -58,17 +58,17 @@ Astronomers often examine star maps where stars are represented by points on a p
 For example, look at the map shown on the figure above. Level of the star number 5 is equal to 3 (it's formed by three stars with a numbers 1, 2 and 4). And the levels of the stars numbered by 2 and 4 are 1. At this map there are only one star of the level 0, two stars of the level 1, one star of the level 2, and one star of the level 3. 
 
 You are to write a program that will count the amounts of the stars of each level on a given map.
- 
+
 
 Input
 
 The first line of the input file contains a number of stars N (1<=N<=15000). The following N lines describe coordinates of stars (two integers X and Y per line separated by a space, 0<=X,Y<=32000). There can be only one star at one point of the plane. Stars are listed in ascending order of Y coordinate. Stars with equal Y coordinates are listed in ascending order of X coordinate.
- 
+
 
 Output
 
 The output should contain N lines, one number per line. The first line contains amount of stars of the level 0, the second does amount of stars of the level 1 and so on, the last line contains amount of stars of the level N-1.
- 
+
 
 Sample Input
 
@@ -78,7 +78,7 @@ Sample Input
 7 1
 3 3
 5 5
- 
+
 
 Sample Output
 
@@ -285,7 +285,7 @@ Input
 * Line 1: A single integer, N 
 
 * Lines 2..N+1: Two integers: the volume threshold and x coordinate for a cow. Line 2 represents the first cow; line 3 represents the second cow; and so on. No two cows will stand at the same location. 
-Output
+  Output
 
 * Line 1: A single line with a single integer that is the sum of all the volumes of the conversing cows. 
 

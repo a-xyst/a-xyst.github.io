@@ -1,6 +1,6 @@
 ---
-title:  "7-25练习"
-excerpt: "背包训练。"
+title:  "背包笔记"
+excerpt: "背包笔记。"
 toc: true
 toc_label: "目录"
 toc_icon: "gear"

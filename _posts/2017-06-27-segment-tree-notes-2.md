@@ -1,5 +1,5 @@
 ---
-title:  "线段树简单笔记2"
+title:  "线段树笔记2"
 excerpt: "支持区间修改的线段树笔记。"
 toc: true
 toc_label: "目录"

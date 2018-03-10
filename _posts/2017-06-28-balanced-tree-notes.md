@@ -1,5 +1,5 @@
 ---
-title:  "平衡树简单笔记"
+title:  "平衡树笔记"
 excerpt: "平衡树简单笔记。"
 toc: true
 toc_label: "目录"

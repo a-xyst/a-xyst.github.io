@@ -51,7 +51,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : "http://feeds.feedburner.com/a-xyst-blog"
-search                   : true
+search                   : false
 
 # SEO Related
 google_site_verification :

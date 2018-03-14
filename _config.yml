@@ -9,20 +9,20 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "zh"
-title                    : "A-XYST's BLOG"
+title                    : "AXYST's BLOG"
 title_separator          : "_"
-name                     : "a-xyst"
-description              : "A-xyst的个人博客。"
-url                      : "https://a-xyst.github.io"
+name                     : "axyst"
+description              : "Axyst的个人博客。"
+url                      : "https://axyst.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "a-xyst/a-xyst.github.io"
+repository               : "axyst/axyst.github.io"
 teaser                   : /assets/images/teaser.png
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "disqus"
   disqus:
-    shortname            : "a-xyst-blog"
+    shortname            : "axyst-blog"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -71,7 +71,7 @@ og_image                 :
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
-  name                   : "a-xyst"
+  name                   : "axyst"
   links: 
   # An array of links to social media profiles
 
@@ -84,7 +84,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "a-xyst"
+  name             : "axyst"
   avatar           : /assets/images/logo.png
   bio              : "大三学生，就读于计算机科学与技术专业。"
   location         : "武汉"
@@ -97,7 +97,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : a-xyst
+  github           : axyst
   gitlab           :
   google_plus      :
   keybase          :

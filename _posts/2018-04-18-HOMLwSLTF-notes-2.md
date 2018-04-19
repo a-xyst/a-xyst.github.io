@@ -48,7 +48,7 @@ P38 Notations
 
 也可以用Scikit-Learn提供的train_test_split()快速划分测试集.
 
-在较小的数据集上, 随机抽样的效果可能并不好, 得到的测试集缺少代表性. 这时可以考虑采用分层抽样作为替代. 分的层不宜过多, 可以通过统一缩放特征值/手动规定特征取值上下限减少层数. sklearn也提供StratifiedShuffleSplit的分层取样方法. 
+在较小的数据集上, 随机抽样的效果可能并不好, 得到的测试集缺少代表性. 这时可以考虑采用分层抽样作为替代. 分的层不宜过多, 可以通过统一缩放特征值/手动规定特征取值上下限减少层数. sklearn也提供StratifiedShuffleSplit的分层抽样方法. 
 
 ## 数据可视化
 
@@ -98,7 +98,3 @@ sklearn自带一些模型的实现, 如LinearRegression(), DecisionTreeRegressor
 使用测试集进行预测. 由于此前已将数据处理管道化, 对测试集进行相同调用即可. 不要在测试集上调整超参数, 由于测试集更小, 在其上调参会导致过拟合更严重.
 
 系统的维护. 编写定期训练模型的程序, 以保证模型在最新的数据集上仍有较好表现. 同时,要定时对结果进行分析.
-
-## 课后练习
-
-1. [参考文档](http://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html) 在定义GridSearchCV的第二个参数矩阵的各个元素时,选择kernel和gamma作为字典键。第一个参数采用SVR().

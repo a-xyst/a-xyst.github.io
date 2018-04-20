@@ -50,3 +50,8 @@ ROC曲线. 真正率, 假正率之间的曲线. sklearn的roc_curve()对其进�
 ## 多输出分类
 
 是一般化的多标签分类. 每个标签可以是一个多维向量.  例:接受一个有噪音的图片, 输出一个干净的图片.
+
+## 课后练习
+
+1. 见第二章练习的第1题, 把参数设为KNeighborsClassifier的相应参数即可.
+2. 先把原图像reshape(), 调用shift(), 再reshape()回去. 可参考numpy.reshape的文档.

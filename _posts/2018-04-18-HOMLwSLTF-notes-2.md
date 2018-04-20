@@ -98,3 +98,20 @@ sklearn自带一些模型的实现, 如LinearRegression(), DecisionTreeRegressor
 使用测试集进行预测. 由于此前已将数据处理管道化, 对测试集进行相同调用即可. 不要在测试集上调整超参数, 由于测试集更小, 在其上调参会导致过拟合更严重.
 
 系统的维护. 编写定期训练模型的程序, 以保证模型在最新的数据集上仍有较好表现. 同时,要定时对结果进行分析.
+
+## 课后练习
+1. 参考GridSearchCV的课本样例， 以及sklearn.svm.SVR的文档. 由于采用的模型与样例不同, 在param_grid中把模型的参数名/取值范围改为SVR的相应值.
+```python
+negative_mse = grid_search.best_score_
+rmse = np.sqrt(-negative_mse)
+# 误差结果 70363.90313964167
+grid_search.best_params_
+# 最佳参数 {'C': 30000.0, 'kernel': 'linear'}
+```
+2. 误差结果54767.99053704408, 最佳参数 {'C': 157055.10989448498, 'gamma': 0.26497040005002437, 'kernel': 'rbf'}
+
+3. 参考DataFrameSelector的课本样例. 主要有3个不同: 初始化部分增加一个参数k; fit部分调用一个自定义函数定义一个属性, 自定义函数的功能为返回array前k项的id; 最后返回时, 在原矩阵的基础上加入这个新属性列.
+
+4. 参考full_pipeline_with_predictor的课本样例. 由于采用的模型与样例不同, 在定义管道时把各项的键和值换为合适的值.
+
+5. 见1.

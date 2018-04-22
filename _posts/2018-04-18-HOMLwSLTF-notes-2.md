@@ -68,7 +68,7 @@ P38 Notations
 
 自定义的特征映射. 对于一个自定义的映射类, 让它继承sklearn的BaseEstimator和 TransformerMixin类, 编写\_\_init\_\_()/fit()/tramsform()方法即可. 书中的例子实现了一个根据房间数, 人口数和住房数给出新特征的映射器.
 
-特征值缩放. 主要有两种方法: min-max缩放(正则化), 标准化. (网上很多博文混淆缩放(scaling), 正则化(normalization), 标准化(standardization)这三个概念. 我在做笔记时不会照搬网上的通用译名, 若是存在偏差, 一切以原文为准.)
+特征值缩放. 主要有两种方法: min-max缩放(正则化), 标准化. (网上很多博文混淆缩放(scaling), 正则化(normalization), 标准化(standardization)这三个概念. 我在做笔记时不会照搬网上的通用译名, 若是存在偏差, 一切以原文为准. 此外, 还有一个常见概念regularization(规范化), [参考](https://zhuanlan.zhihu.com/p/29974820) )
 
 正则化: (当前特征值-特征最小值)/(特征最大值-特征最小值), 把特征值缩放到[0,1]的范围.
 

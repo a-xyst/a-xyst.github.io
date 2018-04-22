@@ -10,13 +10,15 @@ tags:
   - 机器学习
 ---
 
+本章主要介绍几个基础回归模型, 和梯度下降算法.
+
 ## 线性回归
 
 假设预测目标和特征线性相关. sklearn中的实现为LinearRegression.
 
 线性回归模型: 
 
-$$\hat y=\theta^T \mathbf x, \hat y为预测目标, \theta为参数向量, \mathbf x为特征向量(已加入常数项对应的特征)$$ 
+$$\hat y=\theta^T \mathbf x, \hat y$$为预测目标, $$\theta$$为参数向量, $$\mathbf x$$为特征向量(已加入常数项对应的特征)
 
 代价函数: RMSE, Root Mean Square Error (为简化, 一般直接求MSE)
 
@@ -24,9 +26,9 @@ $$MSE(\mathbf X, h_\theta)=\frac{1}{m}\Sigma_{i=1}^{m}{\Big(\theta^T \mathbf x^{
 
 正则化方程: 
 
-$$\hat \theta = (\mathbf X^T \mathbf X)^{-1}\mathbf X^T \mathbf y, \hat \theta为使RMSE最小的\theta取值, \mathbf y为预测向量$$
+$$\hat \theta = (\mathbf X^T \mathbf X)^{-1}\mathbf X^T \mathbf y, \hat \theta$$为使RMSE最小的$$\theta$$取值, $$\mathbf y$$为预测向量
 
-$$这个公式通过在 \mathbf X \theta=\mathbf y两边同时乘以\mathbf X^T解出.$$
+这个公式通过在$$ \mathbf X \theta=\mathbf y$$两边同时乘以$$\mathbf X^T$$解出.
 
 设特征个数为$$n​$$, 特征矩阵求逆的时间复杂度约为$$O(n^3)​$$. 样本个数为$$m$$, 预测的时间复杂度是$$O(m)​$$.
 
@@ -47,7 +49,7 @@ $$这个公式通过在 \mathbf X \theta=\mathbf y两边同时乘以\mathbf X^T�
 
 也就是说,批梯度下降在每轮迭代时都要遍历整个特征矩阵.
 
-$$\theta_{next} = \theta + \eta \nabla_\theta MSE(\theta), \eta为步长(学习速率)$$
+$$\theta_{next} = \theta + \eta \nabla_\theta MSE(\theta), \eta$$为步长(学习速率)
 
 可以通过网格搜索(见第2章)选择一个合适的学习速率.
 
@@ -99,7 +101,7 @@ sklearn中的PolynomialFeatures可以帮助生成多项式特征, 之后就可�
 
 正规化的线性回归, 添加了一个正规化超参数. 在拟合数据的基础上, 要求模型的参数越小越好, 从而避免过拟合. 在sklearn中的实现是Ridge.
 
-$$J(\theta)=MSE(\theta)+\alpha\frac{1}{2}\sum^n_{i=1}\theta_i^2, 注意偏差项\theta_0未被正规化$$
+$$J(\theta)=MSE(\theta)+\alpha\frac{1}{2}\sum^n_{i=1}\theta_i^2, $$注意偏差项$$\theta_0$$未被正规化
 
 $$\hat \theta = (\mathbf X^T \mathbf X+\alpha \mathbf A)^{-1}\mathbf X^T \mathbf y$$
 
@@ -131,15 +133,15 @@ $$J(\theta)=MSE(\theta)+r\alpha\sum^n_{i=1}|\theta_i|+\alpha\frac{1-r}{2}\sum^n_
 
 ### 估计概率
 
-$$\hat p=h_\theta(x)=\sigma(\theta^T\mathbf x), \sigma为sigmoid函数, \sigma(t)=\frac{1}{1+exp(-t)}$$
+$$\hat p=h_\theta(x)=\sigma(\theta^T\mathbf x), \sigma$$为sigmoid函数,$$ \sigma(t)=\frac{1}{1+exp(-t)}$$
 
-预测时:$$\hat p<0.5 则\hat y=0, \hat p\ge0.5 则\hat y=1$$
+预测时:$$\hat p<0.5 $$则$$\hat y=0, \hat p\ge0.5$$ 则$$\hat y=1$$
 
 ### 训练和误差函数
 
 对于一项数据, 我们希望把正例预测为0, 负例预测为1的代价尽可能大:
 
-$$y=1 则c(\theta)=-log(\hat p), y=0 则c(\theta)=-log(1-\hat p)$$
+$$y=1 $$则$$c(\theta)=-log(\hat p), y=0 $$则$$c(\theta)=-log(1-\hat p)$$
 
 Logistic回归的损失函数:
 

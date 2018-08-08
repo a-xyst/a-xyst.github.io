@@ -11,7 +11,7 @@ tags:
   - NLP
 ---
 
-# 背景
+## 背景
 
 情感分析的构成：主体分析+目标分析+观点分析
 
@@ -19,7 +19,7 @@ tags:
 
 观点质量分析：以顾客评论为例，通常是一个回归任务，使用各种特征（评论长度、评论得分、某些POS 标签的数量、观点词、TF-IDF权重得分、提到的产品特征和品牌、与其他产品的对比），主要应用为观点搜索
 
-## 情感分析方法
+### 情感分析方法
 
 无监督方法：基于词库的分析
 
@@ -31,7 +31,7 @@ tags:
 
 深度学习：Auto-encoder, CNN, LSTM（避免特征工程）
 
-# 基于词库的情感分析
+## 基于词库的情感分析
 
 基本思想：根据句中观点词的倾向，决定句子的情感倾向
 
@@ -50,15 +50,15 @@ tags:
 - 英文：SentiWordNet, General Inquirer, Opinion Lexicon, LIWC, MPQA
 - 中文：HowNet, DUTIR, NTUSD
 
-## 构建词典
+### 构建词典
 
-### Bootstrapping
+#### Bootstrapping
 
 1. 手动收集一系列已知倾向的观点词
 2. 从一个在线词典（例：WordNet）中查找它们的同义词和反义词，从而扩充单词集
 3. 重复以上步骤直到无法扩充单词集，手动检查单词集的正确性，也可以根据WordNet添加额外信息
 
-### PMI(pointwise mutual information)
+#### PMI(pointwise mutual information)
 
 数据来自epinions.com中关于车、银行、电影和旅行距离的评论
 
@@ -91,7 +91,7 @@ Word2Vec
 
 词库分析法的缺点：不能辨认在特定上下文中的观点词；观点词的数量有限，且在不同领域的作用可能不同
 
-# 基于机器学习的情感分析
+## 基于机器学习的情感分析
 
 直接用监督学习方法对评价进行二分类，类似于文本分类
 
@@ -99,7 +99,7 @@ Word2Vec
 
 特征提取：否定标签、一元分词、二元分词、POS标签、位置、用户打分
 
-## 数据预处理
+### 数据预处理
 
 分词：英文可根据空格/tab/换行分词
 
@@ -109,7 +109,7 @@ Word2Vec
 
 否定词标记：把在否定词和下一个词之间的词全部标记为否定态，也可以进行其他类似的范围标记，如引用标记
 
-## 特征提取
+### 特征提取
 
 特征：单词、n-gram(n元分词)、词类、观点词、增强词移位词情态动词、语法依赖
 
@@ -119,7 +119,7 @@ Word2Vec
 
 在平衡训练集上，SVM的分类准确性最强，使用特征为一元分词（独立单词）
 
-# 基于深度学习的情感分析
+## 基于深度学习的情感分析
 
 深度学习模型包含：
 - 单词向量化（例：word embedding）
@@ -129,13 +129,13 @@ Word2Vec
 - - 卷积神经网络(CNN)
 -  Softmax层
 
-## 单词向量化
+### 单词向量化
 
 传统方法：One Hot Encoding（一个特征代表一个单词）
 
 word embedding：把每个单词保存为空间中的一个点，空间是靠基于大型语料库的无监督学习建立，空间维度固定（一般为300）
 
-### word2vec
+#### word2vec
 
 流行的建立低维度文本空间的软件包，包含：
 
@@ -149,24 +149,25 @@ Skip-Gram：根据给定的词预测它周围的词，通常表现更好，预�
 
 维度数和窗口大小影响训练效果
 
-## RNN
+### RNN
 
 Paper: Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank
 
 LSTM：
 
-[https://github.com/shashankbhatt/Keras-LSTM-Sentiment-Classification]
-[https://inclass.kaggle.com/c/si650winter11]
+(https://github.com/shashankbhatt/Keras-LSTM-Sentiment-Classification)
 
-## CNN
+(https://inclass.kaggle.com/c/si650winter11)
+
+### CNN
 
 Paper: Convolutional Neural Networks for Sentence Clssification
 
-[https://github.com/cmasch/cnn-text-classification]
+(https://github.com/cmasch/cnn-text-classification)
 
 深度学习资源：Pylearn2, Theano, Caffe, Torch, Pytorch, Deeplearning4j, Word2vec, GloVe, Doc2vec, StanfordNLP, TensorFlow
 
-# 其他情感分析方法
+## 其他情感分析方法
 
 多方面的情感分析
 

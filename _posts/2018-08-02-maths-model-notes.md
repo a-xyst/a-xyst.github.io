@@ -10,8 +10,8 @@ tags:
   - 数学
   - 微积分
 ---
-# Numerical methods for ODEs
-## finite difference for initial value problems
+## Numerical methods for ODEs
+### finite difference for initial value problems
 example:initial-value Cauchy ODE problem
 
 explicit(forward)/inexplicit(backward) euler method
@@ -23,19 +23,19 @@ Runge-Kutta methods
 Jacobi method, Newton method
 
 analysis in the space of undetermined coefficients
-## convergence, consistency and stability
+### convergence, consistency and stability
 multistep method
 
 stiff equations
-## boundary value problems
-### Crout Algorithm
+### boundary value problems
+#### Crout Algorithm
 $$
 u = C_1u' + C2u'' + \hat u
 $$
 
 (common solution = partial solution of inhomogeneous equation + linear independent solutions of homogeneous equation)
 
-### Variation methods, Ritz method.
+#### Variation methods, Ritz method.
 symbols:
 
 $$
@@ -75,8 +75,8 @@ $$
 =(y_1Af_1+h_2Af_2,y_1\phi_1+y_2\phi_2)-2y_1(\phi_1,f)-2y_2(\phi_2,f)\\
 =y_1y_1(A\phi_1,\phi_1)+y_1y_2(A\phi_1,\phi_2)+y_2y_1(A\phi_2,\phi_1)\\+y_2y_2(A\phi_2,phi_2)-2y_1(\phi_1,f)-2y_2(\phi_2,f)
 $$
-### Bubnov-Galerkin method
-## Nonlinear Systems
+#### Bubnov-Galerkin method
+### Nonlinear Systems
 
 Discrete dynamical systems and bifurcations
 
@@ -91,7 +91,7 @@ theorem:if transform y=f(u) is contracted, u=f(u) has a solution v, and v is the
 $$
 |u_n-v| \lt \frac{q^n}{1-q}|u_1-u_0|
 $$
-# Numerical methods for mathematical models based on the hyperbolic problems
+## Numerical methods for mathematical models based on the hyperbolic problems
 Upwind-scheme(Courant-Issacson-Rees scheme)
 
 Lax-Wendroff scheme
@@ -99,7 +99,7 @@ Lax-Wendroff scheme
 Lax-Friedrichs scheme
 
 example:
-# Mathematical models based on the hyperbolic problems
+## Mathematical models based on the hyperbolic problems
 shallow water model.
 
 gas dynamics model.
@@ -119,7 +119,7 @@ waterflood in rivers
 PC networks
 
 blood flow
-# reference books
+## reference books
 1. Runge-Kutta methods wikipedia
 
 2. Numerical Recipes Books On-Line numerical.recipes
@@ -127,8 +127,8 @@ blood flow
 3. Leveque R.J. Finite-difference methods for ordinary and partial differential equations
 
 4. Dalziel S. Numerical Methods www.damtp.com.ac.uk/user/fdl/people/sd103
- 
+
 5. Finite element method wikipedia
- 
+
 6. finite volume method wikipedia
 

@@ -5,7 +5,7 @@ toc: true
 toc_label: "目录"
 toc_icon: "gear"
 categories:
-  - Machine_Learning
+  - Deep_Learning
 tags:
   - 深度学习
   - NLP

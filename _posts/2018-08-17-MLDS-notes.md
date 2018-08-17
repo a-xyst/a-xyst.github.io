@@ -34,7 +34,7 @@ tags:
 如果在某点梯度为0，且Hessian矩阵正定，说明该点是一个局部极小点。
 
 $$
-H\ is\ positive\ definite\rightarrow x^THx>0\rightarrow Around\ \theta^0:f(\theta)>f(\theta^0\rightarrow local\ minima)
+H\ is\ positive\ definite\rightarrow x^THx>0\rightarrow \\Around\ \theta^0:f(\theta)>f(\theta^0\rightarrow local\ minima)
 $$
 
 可以用牛顿法解出梯度为0的点，但：

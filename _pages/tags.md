@@ -1,8 +1,8 @@
 ---
 layout: archive
-permalink: /tag/
+permalink: /tags/
 title: "标签"
-excerpt: "站点标签。"
+excerpt: "按标签排序的文章列表。"
 author_profile: true
 ---
 

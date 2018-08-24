@@ -1,8 +1,8 @@
 ---
 layout: archive
-permalink: /archive/
-title: "归档"
-excerpt: "站点归档。"
+permalink: /categories/
+title: "分类"
+excerpt: "按分类排序的文章列表。"
 author_profile: true
 ---
 

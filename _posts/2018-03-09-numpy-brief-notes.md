@@ -7,7 +7,7 @@ toc_icon: "gear"
 categories:
   - Language
 tags:
-  - 库
+
 ---
 
 题外话：我写py都用linux，装库简单，而且py2/py3也能方便地分开用，不用折腾系统变量。

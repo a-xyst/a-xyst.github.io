@@ -7,9 +7,7 @@ toc_icon: "gear"
 categories:
   - Competetive_Programming
 tags:
-  - 算法
   - 数据结构
-  - 平衡树
 ---
 
 ## 平衡树

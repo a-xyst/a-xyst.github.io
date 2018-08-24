@@ -7,7 +7,6 @@ toc_icon: "gear"
 categories:
   - Machine_Learning
 tags:
-  - 机器学习
   - 分类
 ---
 

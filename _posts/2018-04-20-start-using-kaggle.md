@@ -7,7 +7,6 @@ toc_icon: "gear"
 categories:
   - Machine_Learning
 tags:
-  - 机器学习
   - kaggle
 ---
 
@@ -19,7 +18,7 @@ Kaggle是一个数据科学竞赛平台，我去年曾经注册过，但由于�
 
 有两个比较重要的坑：
 
-一、教程中的数据集和实际需要使用的数据集不是同一个（大概是要防止照抄）。
+一、数据划分为test, train两部分，所有公开文件都是train部分的，test部分是保密的，只有最后评结果的时候会由kaggle方使用。Leaderboard是完全基于训练集的分数，可能是过拟合的结果，因此CV分数比LB分数更为可信。
 
 二、由于kaggle改过界面，最后提交部分和教程描述的不一样。要退出notebook，到output标签点击提交文件才可以。
 

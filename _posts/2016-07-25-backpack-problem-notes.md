@@ -7,9 +7,7 @@ toc_icon: "gear"
 categories:
   - Competetive_Programming
 tags:
-  - 算法
   - DP
-  - 背包
 ---
 
 今天主要接触了三种背包问题，如果能写出DP函数的话，把模板套进去后这类题都不难解出，我觉得学习关键在于对状态转移方程的理解。

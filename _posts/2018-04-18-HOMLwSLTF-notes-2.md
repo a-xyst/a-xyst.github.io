@@ -7,7 +7,7 @@ toc_icon: "gear"
 categories:
   - Machine_Learning
 tags:
-  - 机器学习
+  
 ---
 
 这章通过一个例子(房子价格的数据集)让读者了解机器学习的基本流程.

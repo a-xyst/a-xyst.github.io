@@ -7,7 +7,7 @@ toc_icon: "gear"
 categories:
   - Machine_Learning
 tags:
-  - 机器学习
+  
 ---
 
 机器学习: 研究数据, 选择模型, 用数据训练模型, 使用模型对测试数据进行预测(泛化).

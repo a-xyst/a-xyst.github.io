@@ -7,7 +7,7 @@ toc_icon: "gear"
 categories:
   - Machine_Learning
 tags:
-  - 回归
+  - 监督学习
 ---
 
 本章主要介绍几个基础回归模型, 和梯度下降算法.

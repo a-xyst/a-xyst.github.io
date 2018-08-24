@@ -8,7 +8,6 @@ categories:
   - Competetive_Programming
 tags:
   - 数据结构
-  - 线段树
 ---
 
 ## 支持点修改的线段树

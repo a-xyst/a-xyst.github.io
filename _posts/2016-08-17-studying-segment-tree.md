@@ -8,7 +8,6 @@ categories:
   - Competetive_Programming
 tags:
   - 数据结构
-  - 线段树
 ---
 
 目前主要接触了3类题目

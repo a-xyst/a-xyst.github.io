@@ -7,7 +7,7 @@ toc_icon: "gear"
 categories:
   - Deep_Learning
 tags:
-  - 深度学习
+  
 ---
 
 ## Why Deep Structure

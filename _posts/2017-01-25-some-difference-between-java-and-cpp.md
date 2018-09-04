@@ -8,6 +8,8 @@ categories:
   - Language
 tags:
   - 高精度
+  - C++
+  - Java
 ---
 
 寒假开始学习Java，它与C++的基础语法基本相同，在此做一些简单笔记。

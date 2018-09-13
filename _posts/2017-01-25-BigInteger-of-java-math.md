@@ -8,6 +8,7 @@ categories:
   - Language
 tags:
   - 高精度
+  - Java
 ---
 
 java.math中，包含了在竞赛中实用性很强的高精度API，以下是一些常用指令：

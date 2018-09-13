@@ -86,8 +86,8 @@ analytics:
 author:
   name             : "axyst"
   avatar           : /assets/images/logo.png
-  bio              : "大三学生，就读于计算机科学与技术专业。"
-  location         : "武汉"
+  bio              : "大四CS学生，正在为读研做准备。"
+  location         : "明年回武汉"
   email            : "axysta@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"

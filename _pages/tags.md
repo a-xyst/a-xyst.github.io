@@ -2,7 +2,7 @@
 layout: archive
 permalink: /tags/
 title: "标签"
-excerpt: "按标签排序的文章列表。"
+excerpt: "按标签排序的文章列表"
 author_profile: true
 ---
 

@@ -86,8 +86,8 @@ analytics:
 author:
   name             : "axyst"
   avatar           : /assets/images/logo.png
-  bio              : "大四CS学生，正在为读研做准备。"
-  location         : "明年回武汉"
+  bio              : "C++开发工程师"
+  location         : "深圳"
   email            : "axysta@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -141,6 +141,7 @@ exclude:
   - log
   - node_modules
   - package.json
+  - package-lock.json
   - Rakefile
   - README
   - tmp
@@ -192,7 +193,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
+  - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -200,7 +201,7 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
+  - jekyll-include-cache
 
 
 # Archives

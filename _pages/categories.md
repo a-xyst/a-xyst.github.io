@@ -2,7 +2,7 @@
 layout: archive
 permalink: /categories/
 title: "分类"
-excerpt: "按分类排序的文章列表。"
+excerpt: "按分类排序的文章列表"
 author_profile: true
 ---
 

@@ -65,9 +65,9 @@ Bing Wallpaper：壁纸
 
 Windows Subsystem for Linux
 
-Visual Studio (Bracket Pair Colorizer+Code Runner+Markdown All in One+Markdown Math+Prettier+Color Highlight+其他需求)
+Visual Studio 
 
-Visual Studio Code
+Visual Studio Code (Bracket Pair Colorizer+Code Runner+Markdown All in One+Markdown Math+Prettier+Color Highlight+其他需求)
 
 Jetbrains全家桶
 

@@ -172,7 +172,9 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
+head_scripts:
+  - https://code.jquery.com/jquery-3.2.1.min.js
+  - https://cdn.mathjax.org/mathjax/latest/MathJax.js
 
 # Sass/SCSS
 sass:

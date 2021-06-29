@@ -173,8 +173,8 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 head_scripts:
-  - https://code.jquery.com/jquery-3.2.1.min.js
-  - https://cdn.mathjax.org/mathjax/latest/MathJax.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  - https://kerzol.github.io/markdown-mathjax/lib/marked/lib/marked.js
 
 # Sass/SCSS
 sass:
